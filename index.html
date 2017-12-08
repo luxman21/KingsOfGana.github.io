@@ -76,13 +76,15 @@ var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
     if (isIOS == iPhone) {
 
     var canvasVideo = new CanvasVideoPlayer({
-        videoSelector: '.video',
-        canvasSelector: '.canvas',
-        timelineSelector: false,
+        videoSelector: '.js-video',
+        canvasSelector: '.js-canvas',
+        timelineSelector: '.js-timeline',
         autoplay: true,
         makeLoop: true,
         pauseOnClick: false,
-        audio: false
+        audio: false,
+        hideVideo: true,
+        
     });
 
 }else {
