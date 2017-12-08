@@ -13,3 +13,6 @@
 .navbar {
 	background-color: transparent !important;
 }
+.nav-link{
+	text-decoration-color: white;
+}
