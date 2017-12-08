@@ -10,6 +10,10 @@
 
 }
 
+.nav-link {
+	text-decoration-color: white;
+}
+
 /* navbar backgroudn */
 .navbar {
 	background-color: transparent !important;
