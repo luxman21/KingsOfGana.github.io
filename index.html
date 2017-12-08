@@ -73,9 +73,8 @@
 <script>
 
 var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
-console.log(navigator.platform)
-    window.alert(navigator.platform)
-    if (iPhone == true ) {
+    window.alert(isIOS)
+    if (isIOS) {
 
     var canvasVideo = new CanvasVideoPlayer({
         videoSelector: '.video',
