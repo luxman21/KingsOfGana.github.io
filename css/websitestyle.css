@@ -7,5 +7,9 @@
 
 
     height: 500px;
-    
+
+}
+
+.navbar {
+	background-color: transparent !important;
 }
