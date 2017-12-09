@@ -72,7 +72,7 @@ border-bottom: 4px dotted white;
 
 .jumbotron .customH1 {
     margin-top: 200px;
-    color: #DFDFDF;
+    color: #ecebd9;
     font-size: 70px;  
     font-weight: bold;
 
@@ -80,13 +80,13 @@ border-bottom: 4px dotted white;
 .customP1 {
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #DFDFDF;
+    color: #ecebd9;
     font-size: 20px;  
     
 }
 .customP2{
     padding-top: 10px;
-    color: #DFDFDF;
+    color: #ecebd9;
     font-size: 15px;  
     
     
