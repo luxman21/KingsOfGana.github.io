@@ -10,6 +10,56 @@
     z-index:  -2;
     background-color: aqua;
 }
+
+#about{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color:  #F75959;
+}
+
+.faqSection{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list-group-item {
+background-color: transparent;
+border-radius: 0;
+color: #fff;
+}
+
+.list-group-item.active{
+    background-color: #CC4949;
+    border-color: transparent;
+}
+
+
+hr {
+width: 50%;
+margin-top: 15px;
+border: 0;
+
+border-bottom: 4px dotted white;
+    border-radius: 0.7;
+}
+
+.faqAbout{
+        font-size: 14px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.headingAbout{
+    font-size: 14px;
+}
+
+.paragraphAbout{
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
 .jumbotron{
     background-color: rgba(0,0,0, 0.8);
     color: inherit;
