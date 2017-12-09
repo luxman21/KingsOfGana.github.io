@@ -1,14 +1,52 @@
 #home{
-    height: 600px;
+    height: 750px;
+    width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     background: url('../images/bg2.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 0;
+    background-color: aqua;
 }
 
+.jumbotron{
+    background-color: rgba(0,0,0, 0.9);
+    color: inherit;
+    height: inherit;
+    z-index: 1;
+}
 
+.jumbotron .customH1 {
+    margin-top: 250px;
+    color: #fff;
+    font-size: 90px;  
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+
+}
+.customH4 {
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 20px;  
+    font-family: 'Shift', sans-serif;
+    
+}
+.customP {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;  
+    font-family: 'Shift', sans-serif;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: inherit; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
 
 /* navbar backgroudn */
 .navbar {
