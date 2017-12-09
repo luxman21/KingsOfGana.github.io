@@ -2,14 +2,10 @@
     height: 600px;
     padding-left: 0px;
     padding-right: 0px;
-}
-.backgorundVideo{
     background: url('../images/bg2.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: inherit;
-    height: inherit;
 }
 
 
