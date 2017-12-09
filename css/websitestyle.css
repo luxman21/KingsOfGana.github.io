@@ -7,38 +7,38 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index:  -1;
+    z-index:  -2;
     background-color: aqua;
 }
-
 .jumbotron{
     background-color: rgba(0,0,0, 0.8);
     color: inherit;
     height: inherit;
-    z-index: 1;
+    z-index: 0;
 }
 
 .jumbotron .customH1 {
     margin-top: 200px;
-    color: #fff;
+    color: #DFDFDF;
     font-size: 70px;  
     font-family: 'Shift', sans-serif;
     font-weight: bold;
 
 }
-.customH4 {
+.customP1 {
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #fff;
+    color: #DFDFDF;
     font-size: 20px;  
     font-family: 'Shift', sans-serif;
     
 }
-p.lead {
-    margin-top: 20px;
-    color: #fff;
-    font-size: 20px;  
+.customP2{
+    padding-top: 10px;
+    color: #DFDFDF;
+    font-size: 15px;  
     font-family: 'Shift', sans-serif;
+    
 }
 
 .vertical-center {
