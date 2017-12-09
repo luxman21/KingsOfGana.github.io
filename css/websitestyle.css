@@ -74,7 +74,6 @@ border-bottom: 4px dotted white;
     margin-top: 200px;
     color: #DFDFDF;
     font-size: 70px;  
-    font-family: 'Shift', sans-serif;
     font-weight: bold;
 
 }
@@ -83,14 +82,13 @@ border-bottom: 4px dotted white;
     margin-bottom: 50px;
     color: #DFDFDF;
     font-size: 20px;  
-    font-family: 'Shift', sans-serif;
     
 }
 .customP2{
     padding-top: 10px;
     color: #DFDFDF;
     font-size: 15px;  
-    font-family: 'Shift', sans-serif;
+    
     
 }
 
