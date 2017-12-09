@@ -55,48 +55,9 @@
 		</div>
 	</nav>
 	<div class="container-fluid" id="home">
-				<video playsinline autoplay loop muted = "true" style="min-width:100%; min-height:100%;">
-					<source src="./images/KogBackgroundVideo.mp4" type="video/mp4">
-					<source src="./images/KogBackgroundVideo.webm" type="video/webm">
-                    Browser does not support Video
-				</video>
-        
-        <canvas class="canvas"></canvas>        
-
-<div id="over_video">Look at me</div>
-
-    
+        <div class="backgorundVideo img-fluid "></div>
 	</div>
 
-
-<script src="canvas-video-player.js"></script>
-<script>
-
-var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
-    if (isIOS == iPhone) {
-        console.log("hello")
-    var canvasVideo = new CanvasVideoPlayer({
-        videoSelector: '.js-video',
-        canvasSelector: '.js-canvas',
-        timelineSelector: '.js-timeline',
-        autoplay: true,
-        makeLoop: true,
-        pauseOnClick: false,
-        audio: false,
-        hideVideo: true,
-    });
-
-}else {
-
-    // Use HTML5 video
-    document.querySelectorAll('.canvas')[0].style.display = 'none';
-
-}   
-
-</script>
-    
-    
-    
 	<!-- Links for Bootstrap-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
