@@ -28,7 +28,6 @@
 #contact{
      width: 100%;
     padding-top: 100px;
-    padding-bottom: 30px;
     background-color:  #F75959;
 }
 .footer {
@@ -38,6 +37,7 @@
 }
 .customContactCol{
     padding-top: 30px;
+    padding-bottom: 0px;
 }
 .contactNames {
 	font-size:10px;
