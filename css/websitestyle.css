@@ -18,6 +18,17 @@
     background-color:  #F75959;
 }
 
+#sponsors {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: #E35252;
+}
+
+.styleForSponsors{
+    color: #ecebd9;
+}
+
 .faqSection{
     padding-top: 30px;
     padding-bottom: 30px;
