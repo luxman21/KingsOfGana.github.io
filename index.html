@@ -18,6 +18,10 @@
     <link rel="stylesheet" type="text/css" href="css/websitestyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+     <script>
+      window.sr = ScrollReveal({ reset: true });
+    </script>
+    
 </head>
 <body data-spy="scroll" data-target="#navBar">
     <!-- Navbar for the website -->
@@ -69,22 +73,22 @@
         <div class="col-md-12 align-items-center" id="about">
         <div class="container-fluid">
            <div class="row centered" >
-                <div class="col-sm-4">
+                <div class="col-sm-4 aboutCol1">
                     <h4 class ="headingAbout">About us</h4>
                    <p class="paragraphAbout">King’s College Tamil Society is a student-led organisation that aims to embrace the culture and pay homage to our heritage. Not only do we want to bring together Tamil and non-Tamil students to bring about awareness of the rich Tamil culture behind the dynamic language and traditions, but also help raise money for various charitable causes. Having been established in 2009, we have grown significantly since and have had the pleasure of hosting Kings of Gaana for the past 6 years.</p>
                     </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 aboutCol2">
                      <h4 class ="headingAbout">About Kings Of Gaana</h4>
 <p class="paragraphAbout"> Kings of Gaana is the world’s biggest inter-university gaana competition run by KCL Tamil Society. It is a platform for students to step out of their comfort zone and showcase their talents before well-renowned judges. This year, 21 universities across the country applied; after careful consideration via an external judge, 8 were chosen. Months of preparation all lead up to this one night where they compete against each other to be named ‘Kings of Gaana’.</p>
                     </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 aboutCol3">
                     <h4 class ="headingAbout">About charities we support</h4>
                    <p class="paragraphAbout"> For the past 8 years, KCL Tamil Society has proudly supported Sivan Arul Illam. Founded in 2005, following the 2004 Tsunami, it is a non-profit organisation dedicated to improving the lives of underprivileged children and adults in the north and east of Sri Lanka. From there humble beginning as a home for 25 destitute children back in 2005, they have now grown into an organisation extending much needed help to various sections of the community.</p>
                     </div>
 
                 <hr>    
             </div>
-
+            
             <div class="row text-center" id="faqTop">
                 <div class="container text-center">
                     <h1 class="headingAbout">FAQ</h1>
@@ -146,7 +150,7 @@
                 
                 
                 <div class="row vertical-center align-items-center mx-auto centered customContactCol">
-                    <div class="col-lg-3  col-md-12 centered">
+                    <div class="col-lg-3  col-md-12 centered sponsor1">
                         
                         <img class="sponsorImages" src="./images/sponsorImg1.svg" style="padding-top: 30px; padding-bottom: 30px;">
                         
@@ -154,21 +158,21 @@
                         <p class="sponsorDescription">Leading Sri Lankan and South Indian caterers in London.</p>
                     </div>
                     
-                    <div class="col-lg-3 col-md-12 centered">
+                    <div class="col-lg-3 col-md-12 centered sponsor2">
                         
                         <img class="sponsorImages" src="./images/sponsorImg2.svg" style="padding-top: 30px; padding-bottom: 30px;">
                         <p class="sponsorDescription">Tiger Bar</p>
                         <p class="sponsorDescription">the best shisha lounge in London. A place to eat, drink and enjoy Shisha!</p>
                     </div>
                     
-                    <div class="col-lg-3  col-md-12 centered">
+                    <div class="col-lg-3  col-md-12 centered sponsor3">
                         
                         <img class="sponsorImages" src="./images/sponsorImg3.svg" style="padding-top: 30px; padding-bottom: 30px;">
                         <p class="sponsorDescription">Thamarai</p>
                         <p class="sponsorDescription">Discover the diversity of the global Tamil community through our unique online content and live events.</p>
                     </div>
                     
-                    <div class="col-lg-3 col-md-12 centered">
+                    <div class="col-lg-3 col-md-12 centered sponsor4">
                         
                         <img class="sponsorImages" src="./images/sponsorImg4.svg" style="padding-top: 30px; padding-bottom: 30px;">
                         <p class="sponsorDescription">IBC Radio</p>
@@ -185,28 +189,28 @@
         <div class="col-md-12" id="contact">
         <div class="cocontainer-fluid text-center">
             <div class="row vertical-center align-items-center mx-auto ">
-                <div class="col-sm-12">
+                <div class="col-sm-12 ">
                 <h3>Contact Us</h3>
             </div>
             </div>
             
             <div class="row vertical-center align-items-center mx-auto customContactCol ">
                 
-                <div class="col-sm-4">
+                <div class="col-sm-4 contactAn1">
                 <a href="https://www.facebook.com/kingsofgaana/">
                     <i class="fa fa-facebook" style="font-size:50px;color: #222529;"></i>
                     
                     </a>
                 <p class="contactNames">Facebook</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 contactAn2">
                 <a href="https://www.youtube.com/channel/UCnpSbXu0Efx-U4Gj2mjbmAg">
                     <i class="fa fa-youtube" style="font-size:50px;color: #222529;"></i>
                     
                     </a>
                 <p class="contactNames">YouTube</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 contactAn3">
                 <a href="https://www.instagram.com/kcltamilsoc/">
                     <i class="fa fa-instagram" style="font-size:50px;color: #222529;"></i>
                     
@@ -242,11 +246,89 @@
 
 
 
-
     <!-- Links for Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    
+    <script>
+    window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'botom'
+        });
+        sr.reveal('.aboutCol1', {
+            duration : 2000, 
+            origin: 'left',
+            distance: '200px',
+            reset:'true',
+        })
+        sr.reveal('.aboutCol2', {
+            duration : 3000, 
+            origin: 'left',
+            distance: '100px',
+            reset:'true',
+        })
+        
+        sr.reveal('.aboutCol3', {
+            duration : 3000, 
+            origin: 'left',
+            distance: '300px',
+            reset:'true',
+        })
+        
+       sr.reveal('.sponsor1', {
+            duration : 2000, 
+            origin: 'top',
+            distance: '300px',
+            reset:'true',
+        })
+        
+        sr.reveal('.sponsor3', {
+            duration : 2000, 
+            origin: 'top',
+            distance: '300px',
+            reset:'true',
+        })
+        
+        sr.reveal('.sponsor2', {
+            duration : 3000, 
+            origin: 'bottom',
+            distance: '300px',
+            reset:'true',
+        })
+        sr.reveal('.sponsor4', {
+            duration : 3000, 
+            origin: 'bottom',
+            distance: '300px',
+            reset:'true',
+        })
+    
+    sr.reveal('.contactAn1', {
+            duration : 2000, 
+            origin: 'top',
+            distance: '300px',
+            
+        })
+        
+        sr.reveal('.contactAn2', {
+            duration : 3000, 
+            origin: 'bottom',
+            distance: '300px',
+            
+        })
+        
+        sr.reveal('.contactAn3', {
+            duration : 2000, 
+            origin: 'top',
+            distance: '300px',
+            
+        })
+    
+    
+    </script>
 
 </body>
 </html>
