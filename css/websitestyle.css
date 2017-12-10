@@ -29,6 +29,11 @@
     color: #ecebd9;
 }
 
+.sponsorImages{
+    height: 200px;
+    width: 200px;
+}
+
 .faqSection{
     padding-top: 30px;
     padding-bottom: 30px;
