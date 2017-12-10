@@ -25,6 +25,11 @@
     background-color: #E35252;
 }
 
+.sponsorDescription{
+    font-size: 12px;
+    color: white;
+}
+
 #contact{
      width: 100%;
     padding-top: 100px;
@@ -41,7 +46,7 @@
 }
 .contactNames {
 	font-size:10px;
-    color: #ecebd9;
+    color: white;
 }
 
 .styleForSponsors{
@@ -61,7 +66,11 @@
 .list-group-item {
 background-color: transparent;
 border-radius: 0;
-color: #fff;
+color: white;
+}
+
+.tab-pane{
+    color: white;
 }
 
 .list-group-item.active{

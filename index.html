@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
-<body>
+<body data-spy="scroll" data-target="#navBar">
     <!-- Navbar for the website -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-0 pb-0 fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-0 pb-0 fixed-top" id="navBar">
 
         <!-- Logo for the website -->
         <a class="navbar-brand ml-5" href="#home">
@@ -35,7 +35,7 @@
         <!-- Website options in the nav bar-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active mr-2 ml-2">
+                <li class="nav-item mr-2 ml-2">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item mr-2 ml-2">
@@ -97,9 +97,9 @@
   <div class="col-6">
     <div class="list-group" id="list-tab" role="tablist">
       <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Can you get a refund on after party tickets?</a>
-      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Question2</a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Question2</a>
-      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Question2</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Can after party tickets be resold?</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Can I buy my friend’s after party ticket?</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">I can’t make it to the show, can I come to just the after party?</a>
     </div>
   </div>
   <div class="col-6">
@@ -112,9 +112,20 @@
 
 
         </div>
-      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+          <p>No, after party tickets cannot be resold. The name on the after party ticket must match student ID and government ID. Wristbands will only be given if the following are presented to us: valid show ticket, valid after party ticket, valid student ID and valid government ID.
+          </p>
+        </div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+        <p>
+          No, after party tickets are limited to 1 per person so each individual must buy their own after party ticket. However, one individual may buy multiple show tickets.
+          </p>
+        </div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+        <p>
+          You must attend the show to gain entry into the after party. Wristbands for after party entry will only be given at the show and last issue of wristbands will be at 19:00PM at the show.
+          </p>
+        </div>
     </div>
   </div>
 </div>
@@ -134,25 +145,34 @@
                 </div>
                 
                 
-                <div class="row vertical-center align-items-center mx-auto customContactCol">
+                <div class="row vertical-center align-items-center mx-auto centered customContactCol">
                     <div class="col-lg-3  col-md-12 centered">
                         
                         <img class="sponsorImages" src="./images/sponsorImg1.svg" style="padding-top: 30px; padding-bottom: 30px;">
+                        
+                        <p class="sponsorDescription">Ruby's Catering</p>
+                        <p class="sponsorDescription">Leading Sri Lankan and South Indian caterers in London.</p>
                     </div>
                     
                     <div class="col-lg-3 col-md-12 centered">
                         
                         <img class="sponsorImages" src="./images/sponsorImg2.svg" style="padding-top: 30px; padding-bottom: 30px;">
+                        <p class="sponsorDescription">Tiger Bar</p>
+                        <p class="sponsorDescription">the best shisha lounge in London. A place to eat, drink and enjoy Shisha!</p>
                     </div>
                     
                     <div class="col-lg-3  col-md-12 centered">
                         
                         <img class="sponsorImages" src="./images/sponsorImg3.svg" style="padding-top: 30px; padding-bottom: 30px;">
+                        <p class="sponsorDescription">Thamarai</p>
+                        <p class="sponsorDescription">Discover the diversity of the global Tamil community through our unique online content and live events.</p>
                     </div>
                     
                     <div class="col-lg-3 col-md-12 centered">
                         
                         <img class="sponsorImages" src="./images/sponsorImg4.svg" style="padding-top: 30px; padding-bottom: 30px;">
+                        <p class="sponsorDescription">IBC Radio</p>
+                        <p class="sponsorDescription">IBC Tamil broadcasts 24/7, they plays nonstop music, rap, rock, hip-hop, trance, electro house, country, soft etc music live on the internet.</p>
                     </div>
               
                 </div>
