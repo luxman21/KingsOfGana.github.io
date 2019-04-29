@@ -1,2 +1,2 @@
-# http://luxmanlingam.com/KingsOfGana.github.io/
+KogWebsite.github.io
 website for Kog
